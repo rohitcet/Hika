@@ -1,0 +1,10 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "ibgateway/Dockerfile"
+
+[deploy]
+restartPolicyType = "always"
+restartPolicyMaxRetries = 10
+
+[[services]]
+name = "ibgateway"
