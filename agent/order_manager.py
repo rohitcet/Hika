@@ -12,7 +12,7 @@ Handles:
 import logging
 import time
 
-from ibapi.contract import Contract
+from ib_insync import Contract
 
 import db
 import alerter
