@@ -1,7 +1,4 @@
-FROM voyz/ibeam:latest
+FROM ghcr.io/gnzsnz/ib-gateway:stable
 
-ENV IBEAM_ACCOUNT=placeholder
-ENV IBEAM_PASSWORD=placeholder
-ENV IBEAM_GATEWAY_BASE_URL=https://localhost:5000
-
-EXPOSE 5000
+EXPOSE 4002
+EXPOSE 4001
